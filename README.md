@@ -25,26 +25,34 @@ This document outlines the user journey for the three actors involved in the cry
 - **Title**: "Sponsor - Create a Hackathon Challenge"
 - **Screenshot**: A simple form where the sponsor defines the challenge, selects the required technology, and adds industry details.
 - **Action**: The sponsor submits the challenge.
+![alt text]('assets/sponsor_dashboard.png')
+
 
 ### Screen 2: Team Dashboard
 - **Title**: "Teams - Browse Challenges & Choose a Mentor"
 - **Screenshot**: A page where teams can see available challenges, the technology stack, and a list of freelance mentors.
 - **Action**: The team selects a challenge and a mentor based on their industry expertise.
+![alt text]('assets/team_dashboard.png')
+
 
 ### Screen 3: Mentor Notification
 - **Title**: "Mentor - Notification & Acceptance"
 - **Screenshot**: A notification pops up for the mentor when a team requests collaboration.
 - **Action**: The mentor reviews the challenge and accepts to work with the team.
+![alt text]('assets/mentor_notification.png')
 
 ### Screen 4: Collaboration & Progress
 - **Title**: "Team & Mentor - Collaboration Workspace"
 - **Screenshot**: A collaboration dashboard where the team and mentor can communicate, share progress, and review the development stages.
 - **Action**: The mentor advises the team through milestones.
+![alt text]('assets/collaboration_workspace.png')
 
 ### Screen 5: Successful Collaboration
 - **Title**: "Successful Collaboration"
 - **Screenshot**: A summary screen indicating the project's success and feedback about the mentor.
 - **Action**: The sponsor is notified that tokens can be distributed.
+![alt text]('assets/mentor_nft_token.png')
+
 
 ### Screen 6: Token Distribution
 - **Title**: "Team and Mentor Token Rewards"
