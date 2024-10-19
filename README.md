@@ -1,4 +1,8 @@
-# MentorHelper User Journey Demo
+# Hackathon Helper 
+
+## This project is a crypto hackathon platform that connects sponsors, teams, and freelance mentors to collaborate on solutions, rewarding successful collaborations with tokens and NFT-based credentials.
+
+# Hackathon Helper User Journey Demo
 
 This document outlines the user journey for the three actors involved in the crypto hackathon demo: **Sponsor**, **Teams**, and **Freelance Mentors**. Each step is accompanied by a description of the actions and corresponding screenshots.
 
@@ -37,7 +41,17 @@ This document outlines the user journey for the three actors involved in the cry
 - **Screenshot**: A collaboration dashboard where the team and mentor can communicate, share progress, and review the development stages.
 - **Action**: The mentor advises the team through milestones.
 
-### Screen 5: Token Reward & NFT CV
+### Screen 5: Successful Collaboration
+- **Title**: "Successful Collaboration"
+- **Screenshot**: A summary screen indicating the project's success and feedback about the mentor.
+- **Action**: The sponsor is notified that tokens can be distributed.
+
+### Screen 6: Token Distribution
+- **Title**: "Team and Mentor Token Rewards"
+- **Screenshot**: A screen showing the token rewards given to both the mentor and the team.
+- **Action**: Tokens are distributed, and the mentor's NFT CV is updated with the project information.
+
+### Screen 7: Token Reward & NFT CV
 - **Title**: "Mentor - Earn Token & NFT"
 - **Screenshot**: A token summary screen where the mentor receives tokens for successful mentorship, and their NFT CV is automatically updated with the new project.
 - **Action**: A visual of an NFT updated with the latest project information.
