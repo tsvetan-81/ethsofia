@@ -41,3 +41,19 @@ async function createChallenge() {
       console.error(error);
     });
 }
+
+
+async function rewardSuccess(challengeIndex, tokensForMentor, tokensForTeam, nftCV) {
+    const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
+    const sponsor = accounts[0];
+    
+    contract.methods.rewardMentorAndTeam(challengeIndex, tokensForMentor, tokensForTeam, nftCV)
+      .send({ from: sponsor })
+      .on('receipt', function(receipt) {
+        alert('Tokens distributed successfully to the mentor and the team!');
+      })
+      .on('error', function(error) {
+        console.error(error);
+        alert('Failed to distribute tokens.');
+      });
+  }
